@@ -1,0 +1,153 @@
+
+/**/
+body{
+	background-color: rgb(238, 238, 238);
+}
+section{
+	margin: .05rem 0;
+	background-color: #fff;
+}
+/**/
+/*------Header start------*/
+header{
+	width: 100%;
+	font-size: .16rem;
+	position: fixed;
+	top: 0;left: 0;
+	z-index: 1;
+}
+.header-search{
+    background-color: #FE5400;
+    text-align: center;
+    position: relative;
+}
+.header-search input{
+	width: 95%;height: .3rem;line-height: .3rem;
+	margin: .05rem 0;
+	color: #fff;
+	text-indent: .05rem;
+	font-family: inherit;
+}
+.header-search .iconfont{
+	font-size: .2rem;
+	color: #B52600;
+	position: absolute;
+	top: .04rem;right: .12rem;
+}
+/*------Header end------*/
+
+
+/*------Top Banner swipe start------*/
+.banner{
+	margin-top: .4rem;
+}
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+/*------Top Banner swipe end------*/
+
+
+/*------首页分类选项 start------*/
+.category .category-item{
+	display: flex;
+}
+.category .category-item div{
+	flex: 1;
+	text-align: center;
+	padding: .1rem;
+}
+.category .category-item div p{
+	margin-bottom: .05rem;
+}
+/*------首页分类选项 end------*/
+
+
+/*------母婴好物、健康活力 start------*/
+.hot{
+	background-color: rgb(238, 238, 238);
+}
+.hot > div{
+	margin: .05rem 0;
+}
+/*------母婴好物、健康活力 end------*/
+
+
+/*------热门商品 start------*/
+.featured{
+	background-color: rgb(238, 238, 238);
+	margin-bottom: .45rem;
+}
+.featured .iconfont{
+	font-size: .13rem;
+}
+.featured .title{
+	font-size: .20rem;
+    font-weight: bold;
+}
+.featured .list{
+	display: flex;
+	flex-wrap: wrap;
+}
+.featured .list li{
+	width: 50%;
+	padding: .05rem;
+}
+.featured .list li .name{
+	padding: .05rem;
+	text-indent: .05rem;
+	font-weight: bold;
+}
+.featured .list li .price{
+	color: #DD2727;
+	text-indent: .1rem;
+	font-weight: bold;
+}
+.featured .list li .price span{
+	padding: 0 .05rem;
+}
+/*------热门商品 end------*/
+
+
+/*------Footer start------*/
+.footer{
+	width: 100%;
+	position: fixed;
+	left: 0;bottom: 0;
+	z-index: 1;
+	background-color: #fff;
+	border-top: .01rem solid #ccc;
+}
+.footer .iconfont{
+	font-size: .2rem;
+}
+.footer nav{
+	display: flex;
+}
+.footer nav .navbar-link{
+	flex: 1;
+	font-size: .12rem;
+}
+.footer nav .navbar-link a{
+	display: block;
+	width: 100%;height: 100%;
+	text-align: center;
+	color: #000;
+}
+.footer nav .navbar-link a i,
+.footer nav .navbar-link a span{
+	display: block;
+}
+ /*------Footer end------*/
+
+
